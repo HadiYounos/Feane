@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+header {
+    background-image: url(/public/images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+
+
+.navbar-brand {
+    font-family: dancing script, sans-serif;
+    font-size: 32px;
+}
+
+.order-book{
+    border: none;
+    background-color: #ffbe33;
+    border-radius: 50px;
+    padding: 8px 30px;
+    margin-top: 10px;
+    color: #fff;
+    display: inline-block;
+}
+.order-book:hover{
+    background-color: #cd9928;
+}
+
+
+
+.order {
+    border: none;
+    background-color: #ffbe33;
+    border-radius: 50px;
+    padding: 8px 30px;
+    margin: 0 10px;
+    color: #fff;
+    display: inline-block;
+}
+.order:hover{
+    background-color: #cd9928;
+}
+
+.carousel-item{
+    color: #fff;
+    padding-top: 50px;
+}
+
+
+h1{
+    font-family: dancing script, sans-serif;
+    font-size: 56px;
+}
+.order-now{
+    border: none;
+    background-color: #ffbe33;
+    border-radius: 50px;
+    padding: 8px 30px;
+    color: #fff;
+}
+
+
+.offer-container{
+    width: 80%;
+    margin: auto;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    border-radius: 5px;
+    background-color: #222831;
+    color: #fff;
+    -webkit-box-align: center;
+    padding: 20px 15px;
+    width: 100%;
+    
+}
+@media(max-width:767px){
+.offer-container {
+    width: 90%;
+    margin: auto;
+    }
+}
+.box:hover img{
+    transform: scale(1.2);
+}
+h5,h6,span{
+    font-family: dancing script, sans-serif;
+}
+.box .image{
+    width: 175px;
+    min-width: 175px;
+    height: 175px;
+    border: 5px solid #ffbe33;
+    border-radius: 100%;
+    overflow: hidden;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s;
+}
+.box-content{
+    margin:20px 10px;
+
+}
+
+
+
+.menu-ul li.active{
+    background-color: #222831;
+    color: #fff;
+}
+
+h2{
+    font-family: dancing script, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.box-details{
+    text-align: start;
+    background:linear-gradient(to bottom, #f1f2f3 25px, #222831 25px) ;
+    color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+.box-details:hover img{
+    transform: scale(1.1);
+}
+.img-box{
+    background: #f1f2f3;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 215px;
+    border-radius: 0 0 0 45px;
+    margin: -1px;
+    padding: 25px;
+
+
+}
+.img-box img{
+    max-width: 100%;
+    max-height: 145px;
+    transition: all 0.2s;
+}
+.details{
+    padding: 25px;
+
+
+}
+.options{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0 15px 15px 15px;
+}
+.icon-{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #ffbe33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.about-section{
+    background-color: #222831;
+    color: #fff;
+    padding: 90px 0;
+}
+.about-details{
+    text-align: start;
+
+}
+.img-about img{
+    width: 100%;
+    max-width: 445px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.form-control{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    border: 1px solid #999;
+    color: #000;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+
+.map{
+    border-radius: 5px;
+
+}
+.map iframe{
+    border-radius: 10px;
+}
+
+
+
+.item-box{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+
+}
+.item-details{
+    background-color: #222831;
+    color: #fff;
+    border-radius: 5px;
+    padding: 25px 25px 15px 25px;
+    text-align: start;
+}
+.item-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    margin-top: 30px;
+    position: relative;
+}
+.item-img::before{
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #ffbe33;
+    transform: rotate(45deg) translateX(-50%);
+    
+}
+.item-img img{
+    border-radius: 100%;
+    border: 5px solid #ffbe33;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #ffbe33;
+    color: #fff;
+    background-size: 60%;
+    outline: none;
+    margin: 0 5px;
+}
+
+footer{
+    background-color: #222831;
+    color: #fff;
+    padding: 75px 0 45px 0;
+    text-align: center;
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-box a{
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+}
+.contact-box a:hover{
+    color: #ffbe33;
+}
+.contact-box a span{
+    font-family: sans-serif;
+    padding: 0 7px;
+}
+
+.footer-logo{
+    text-decoration: none;
+    color: #fff;
+    font-family: dancing script, sans-serif;
+    font-size: 38px;
+
+}
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 10px 0;
+}
+.footer-social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222831;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin: 0 2.5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+select option{
+    background-color: #eee;
+}
+
+@media (max-width:480px) {
+    .book-section{
+        width: 95%;
+        margin: auto;
+    }
+    .serv{
+        width: 90%;
+        margin: auto;
+        padding: 10px 0;
+    }
+}
+
+.serv-img img{
+    transition: all 0.2s;
+}
+.serv:hover img{
+    transform: scale(1.2);
+}
+
+/* .back-section{
+    background-image: url(/public/images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+} */
+
+
+

@@ -1,0 +1,13 @@
+.carousel-item .pra{
+    width: 50%;
+    font-size: 18px;
+}
+@media (max-width:480px) {
+    .carousel-item .pra {
+        width: 100%;
+    }
+    header .carousel{
+        width: 90%;
+        margin: auto;
+    }
+}

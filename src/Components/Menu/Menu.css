@@ -1,0 +1,20 @@
+
+.menu-ul li {
+    margin: 7px 10px;
+    font-size: 20px;
+    padding: 7px 25px;
+    border-radius: 25px;
+}
+
+@media (max-width:770px) {
+    .menu-ul li {
+        margin: 7px 0;
+        font-size: 16px;
+        padding: 7px 20px;
+        border-radius: 25px;
+    }
+    .menu {
+        width: 95%;
+        margin: auto;
+    }
+}
