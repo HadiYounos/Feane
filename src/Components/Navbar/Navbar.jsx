@@ -50,7 +50,7 @@ export default function Navbar() {
                 className={({ isActive }) => 
                   `nav-link text-white ${isActive ? 'active' : ''}`
                 } 
-                to="Menu"
+                to="menu"
               >
                 MENU
               </NavLink>
@@ -60,7 +60,7 @@ export default function Navbar() {
                 className={({ isActive }) => 
                   `nav-link text-white ${isActive ? 'active' : ''}`
                 } 
-                to="About"
+                to="about"
               >
                 ABOUT
               </NavLink>
@@ -70,7 +70,7 @@ export default function Navbar() {
                 className={({ isActive }) => 
                   `nav-link text-white ${isActive ? 'active' : ''}`
                 } 
-                to="Book"
+                to="book"
               >
                 BOOK TABLE
               </NavLink>

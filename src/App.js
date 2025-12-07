@@ -5,7 +5,6 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Book from './Components/Book/Book';
 import Menu from './Components/Menu/Menu';
-import Cart from './Components/Cart/Cart';
 
 
 
@@ -13,10 +12,9 @@ function App() {
   let router= createBrowserRouter([
     {path:"", element: <Layout />, children:[
       {index:true, element: <Home />},
-      {path:"Menu", element: <Menu />},
-      {path:"About", element: <About />},
-      {path:"Book", element: <Book />},
-      {path:"Cart", element: <Cart/>}
+      {path:"menu", element: <Menu />},
+      {path:"about", element: <About />},
+      {path:"book", element: <Book />}
     ]}
     
   ])
