@@ -12,6 +12,7 @@ export default function Navbar() {
         nav.classList.remove('move-down');
       }
     };
+    console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID)
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
